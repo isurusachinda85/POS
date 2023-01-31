@@ -235,7 +235,7 @@ public class ManageCustomersFormController {
         }
 
     }
-
+//save customer
     private String getLastCustomerId() {
         List<CustomerTM> tempCustomersList = new ArrayList<>(tblCustomers.getItems());
         Collections.sort(tempCustomersList);
